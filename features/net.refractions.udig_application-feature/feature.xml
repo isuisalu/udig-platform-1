@@ -27,10 +27,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
    </license>
 
-   <url>
-      <update label="User-friendly Desktop Internet GIS Updates" url="http://udig.refractions.net/update/"/>
-   </url>
-
+<!--
+   <includes
+         id="eu.udig.teradata-feature"
+         version="1.3.0.201201051557"/>
+-->
    <plugin
          id="net.refractions.udig.mapgraphic"
          download-size="0"
@@ -107,14 +108,14 @@ GNU Lesser General Public License for more details.
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
    <plugin
          id="net.refractions.udig.render.gridcoverage.basic"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+<!--
+-->
    <plugin
          id="net.refractions.udig.tools.edit"
          download-size="0"
@@ -122,20 +123,20 @@ GNU Lesser General Public License for more details.
          version="0.0.0"
          unpack="false"/>
 
+ <!--
    <plugin
          id="net.refractions.udig.browser"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
    <plugin
          id="net.refractions.udig.legend"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+-->
    <plugin
          id="net.refractions.udig.style.wms"
          download-size="0"
@@ -147,7 +148,7 @@ GNU Lesser General Public License for more details.
          id="com.lowagie.itext"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="2.1.7"/>
 
    <plugin
          id="net.refractions.udig.project.ui.editor"
@@ -155,20 +156,20 @@ GNU Lesser General Public License for more details.
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+<!--
    <plugin
          id="org.tcat.citd.sim.udig.bookmarks"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
-
    <plugin
          id="net.refractions.udig.feature.editor"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
+-->
 
    <plugin
          id="net.refractions.udig.render.feature.shapefile"
@@ -176,57 +177,198 @@ GNU Lesser General Public License for more details.
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+<!--
    <plugin
          id="net.refractions.udig.catalog.wmt"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+-->
    <plugin
          id="net.refractions.udig.render.wmt.basic"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+<!--
+   <plugin
+         id="com.mapquest"
+         download-size="0"
+         install-size="0"
+         version="5.3.0"/>
+   <plugin
+         id="eu.udig.mapquest.apiwrapper"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201201051557"
+         unpack="false"/>
 
    <plugin
          id="eu.udig.style.jgrass"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.0"
          unpack="false"/>
 
    <plugin
          id="eu.udig.tools.jgrass"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.0"
          unpack="false"/>
 
    <plugin
          id="eu.udig.style.advanced"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.2.201201051557"
          unpack="false"/>
 
    <plugin
          id="eu.udig.omsbox"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
-
+         version="1.0.0"/>
+-->
+<!--
+	Source bundles.
+-->
    <plugin
-         id="eu.udig.tools"
+         id="net.refractions.udig.mapgraphic.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="eu.udig.catalog.kml"
+         id="net.refractions.udig.project.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.project.edit.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.project.ui.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.render.feature.basic.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.render.wms.basic.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.style.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.style.sld.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.tool.default.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.tool.info.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.tool.select.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="net.refractions.udig.render.gridcoverage.basic.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+<!--
+-->
+   <plugin
+         id="net.refractions.udig.tools.edit.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+ <!--
+   <plugin
+         id="net.refractions.udig.browser"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="net.refractions.udig.legend"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+-->
+   <plugin
+         id="net.refractions.udig.style.wms.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.project.ui.editor.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+<!--
+   <plugin
+         id="org.tcat.citd.sim.udig.bookmarks"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.201201051557"
+         unpack="false"/>
+   <plugin
+         id="net.refractions.udig.feature.editor"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.201201051557"
+         unpack="false"/>
+-->
+
+   <plugin
+         id="net.refractions.udig.render.feature.shapefile.source"
          download-size="0"
          install-size="0"
          version="0.0.0"

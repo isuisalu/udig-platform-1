@@ -92,6 +92,12 @@ public class UdigMemento implements IMemento {
     public IMemento[] getChildren( String type ) {
         return getTypeList(type).toArray(new IMemento[0]);
     }
+    /**
+     * added by IS 
+     */
+    public IMemento[] getChildren() {
+        return new IMemento[0];
+    }
 
     public Float getFloat( String key ) {
         try {

@@ -10,24 +10,12 @@
       uDig example application
    </description>
 
-   <copyright url="http://udig.refractions.net/">
-      (c) 2005-2012 Refractions Research
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
    </copyright>
 
-   <license url="http://www.opensource.org/licenses/lgpl-2.1.php">
-      uDig - User Friendly Desktop Internet GIS client
-http://udig.refractions.net
-(C) 2004-2012, Refractions Research Inc.
-
-This library is free software; you can redistribute it and/or
-modify it under the terms of the GNU Lesser General Public
-License as published by the Free Software Foundation;
-version 2.1 of the License.
-
-This library is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-Lesser General Public License for more details.
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
    </license>
 
    <url>
@@ -35,7 +23,7 @@ Lesser General Public License for more details.
       <discovery label="uDig Updates" url="http://udig.refractions.net/update/"/>
       <discovery label="uDig Community Updates" url="http://udig.refractions.net/update-community/"/>
    </url>
-
+<!--
    <includes
          id="org.eclipse.rcp"
          version="0.0.0"/>
@@ -43,11 +31,10 @@ Lesser General Public License for more details.
    <includes
          id="org.eclipse.help"
          version="0.0.0"/>
-
    <includes
          id="eu.udig.teradata-feature"
-         version="0.0.0"/>
-
+         version="1.3.0.201201051557"/>
+-->
    <includes
          id="net.refractions.udig_application-feature"
          version="0.0.0"/>
@@ -59,16 +46,16 @@ Lesser General Public License for more details.
    <includes
          id="net.refractions.udig_platform-feature"
          version="0.0.0"/>
-
+<!--
    <includes
          id="net.refractions.udig_printing-feature"
          version="0.0.0"/>
-
    <plugin
          id="net.refractions.udig"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+-->
 
 </feature>

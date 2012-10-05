@@ -10,7 +10,7 @@
    </description>
 
    <copyright url="http://udig.refractions.net/">
-      (c) 2005-2012 Refractions Research
+      (c) 2005-2011 Refractions Research
    </copyright>
 
    <license url="http://www.gnu.org/licenses/lgpl-2.1.html">
@@ -60,28 +60,28 @@ This library is distributed in the hope that it will be useful, but WITHOUT ANY 
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+<!--
    <plugin
          id="net.refractions.udig.catalog.db2"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
          id="net.refractions.udig.catalog.geotiff"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
          id="net.refractions.udig.catalog.postgis"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
-
+-->
    <plugin
          id="net.refractions.udig.catalog.rasterings"
          download-size="0"
@@ -109,38 +109,36 @@ This library is distributed in the hope that it will be useful, but WITHOUT ANY 
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+<!--
    <plugin
          id="net.refractions.udig.catalog.worldimage"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
-
    <plugin
          id="net.refractions.udig.help"
          download-size="0"
          install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="1.2.0.201201051557"/>
 
    <plugin
          id="net.refractions.udig.libs.db2"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="1.2.0.201201051557"/>
 
    <plugin
          id="net.refractions.udig.libs.oracle"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="1.2.0.201201051557"/>
 
    <plugin
          id="net.refractions.udig.catalog.oracle"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
@@ -148,7 +146,7 @@ This library is distributed in the hope that it will be useful, but WITHOUT ANY 
          os="macosx"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          fragment="true"
          unpack="false"/>
 
@@ -156,46 +154,104 @@ This library is distributed in the hope that it will be useful, but WITHOUT ANY 
          id="net.refractions.udig.catalog.imageio"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
          id="net.refractions.udig.catalog.arcgrid"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
          id="net.refractions.udig.catalog.mysql"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
          id="net.refractions.udig.catalog.arcsde"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
          id="net.refractions.udig.catalog.geotools"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201201051557"
          unpack="false"/>
 
    <plugin
          id="eu.udig.catalog.jgrass"
          download-size="0"
          install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+-->
+
+   <plugin
+         id="net.refractions.udig.catalog.wmt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+<!-- source plugins -->
+
+   <plugin
+         id="net.refractions.udig.core.source"
+         download-size="0"
+         install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="net.refractions.udig.catalog.wmt"
+         id="net.refractions.udig.ui.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.catalog.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.catalog.ui.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="net.refractions.udig.catalog.rasterings.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.catalog.shp.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.catalog.wfs.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.refractions.udig.catalog.wms.source"
          download-size="0"
          install-size="0"
          version="0.0.0"

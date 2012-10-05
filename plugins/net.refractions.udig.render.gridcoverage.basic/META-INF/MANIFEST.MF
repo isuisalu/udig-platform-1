@@ -13,7 +13,7 @@ Require-Bundle: net.refractions.udig.project,
  net.refractions.udig.catalog,
  org.eclipse.jface,
  net.refractions.udig.ui,
- net.refractions.udig.project.ui,
+ net.refractions.udig.project.ui;visibility:=reexport,
  org.eclipse.ui.views,
  net.refractions.udig.catalog.rasterings,
  net.refractions.udig.style.sld

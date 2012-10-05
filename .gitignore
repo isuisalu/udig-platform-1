@@ -16,6 +16,8 @@ target
 javaCompiler...args
 build.xml
 workspace
-
+.classpath
+.project
 /plugins/org.tcat.citd.sim.udig.bookmarks.tests/bin/
 /plugins/net.refractions.udig.libs/lib-src/
+bin

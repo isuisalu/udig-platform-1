@@ -24,6 +24,165 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
       <update label="User-friendly Desktop Internet GIS Updates" url="http://udig.refractions.net/update/"/>
    </url>
 
+   <includes
+         id="org.eclipse.rcp"
+         version="4.2.1"/>
+   <includes
+         id="org.eclipse.e4.rcp"
+         version="0.0.0"/>
+<!--
+-->
+   <includes
+         id="org.eclipse.e4.rcp.source"
+         version="0.0.0"/>
+
+   <plugin
+         id="javax.annotation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.inject"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.platform"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.databinding.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime.compatibility"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime.compatibility.registry"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime.compatibility.registry.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime.compatibility.auth"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.compat"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.css.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.css.editor.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.css.spy"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.emf.liveeditor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.emf.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.emf.ui.script.js"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.services"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.resources"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         <!--
+   <plugin
+         id="org.eclipse.swt.win32.win32.x86"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> -->
+
    <plugin
          id="org.eclipse.ui.views"
          download-size="0"
@@ -36,14 +195,6 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          download-size="0"
          install-size="0"
          version="0.0.0"/>
-<!--
-   <plugin
-         id="org.eclipse.help.appserver"
-         download-size="0"
-         install-size="0"
-         version="3.1.400.v20110425"
-         unpack="false"/>
--->
 
    <plugin
          id="org.eclipse.ui.cheatsheets"
@@ -51,6 +202,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.eclipse.draw2d"
          download-size="0"
@@ -71,6 +223,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.eclipse.emf.ecore.edit"
          download-size="0"
@@ -118,48 +271,21 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          download-size="0"
          install-size="0"
          version="0.0.0"/>
-<!--
-   <plugin
-         id="org.eclipse.update.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
--->
+
    <plugin
          id="org.eclipse.emf.common.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-<!--
-   <plugin
-         id="org.apache.jasper"
-         download-size="0"
-         install-size="0"
-         version="5.5.17.v201101211617"
-         unpack="false"/>
--->
-<!--
-   <plugin
-         id="org.eclipse.update.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-   <plugin
-         id="org.apache.commons.el"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
--->
+
    <plugin
          id="org.eclipse.ant.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.eclipse.core.net"
          download-size="0"
@@ -208,6 +334,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.eclipse.equinox.security"
          download-size="0"
@@ -234,6 +361,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.apache.commons.logging"
          download-size="0"
@@ -436,23 +564,5 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         <!--
-	<plugin
-         id="javax.net.ssl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-	<plugin
-         id="javax.security.auth"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-	<plugin
-         id="javax.security.cert"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/> -->
+
 </feature>

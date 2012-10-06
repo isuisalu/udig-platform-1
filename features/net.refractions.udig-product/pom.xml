@@ -40,7 +40,16 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+                <configuration>
+					<products>
+						<product>
+							<id>net.refractions.udig-product.product</id>
+							<rootFolder>udig</rootFolder>
+						</product>
+					</products>
+           			<includeAllDependencies>true</includeAllDependencies>
+                </configuration>
+             </plugin>
 
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>

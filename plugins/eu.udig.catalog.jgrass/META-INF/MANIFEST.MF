@@ -16,6 +16,7 @@ Require-Bundle: org.eclipse.ui,
  net.refractions.udig.project.ui,
  net.refractions.udig.mapgraphic
 Eclipse-LazyStart: true
+Import-Package: javax.media.jai
 Export-Package: eu.udig.catalog.jgrass,
  eu.udig.catalog.jgrass.activeregion,
  eu.udig.catalog.jgrass.activeregion.dialogs,

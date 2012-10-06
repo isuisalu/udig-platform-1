@@ -16,4 +16,5 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.xsd;bundle-version="2.7.0"
 Eclipse-LazyStart: true
 Bundle-ClassPath: .
+Import-Package: javax.media.jai.iterator
 Export-Package: eu.udig.tools.jgrass.profile.borrowedfromjgrasstools

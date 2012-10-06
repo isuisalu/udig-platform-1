@@ -15,6 +15,7 @@ Require-Bundle: org.eclipse.ui,
  net.refractions.udig.style,
  net.refractions.udig.style.sld;bundle-version="1.2.0"
 Bundle-ActivationPolicy: lazy
+Import-Package: javax.media.jai.iterator
 Export-Package: eu.udig.style.advanced,
  eu.udig.style.advanced.common,
  eu.udig.style.advanced.common.styleattributeclasses,

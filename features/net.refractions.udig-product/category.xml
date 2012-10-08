@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.refractions.udig-feature.feature_1.3.2-SNAPSHOT.jar" id="net.refractions.udig-feature" version="1.3.2.qualifier">
+      <category name="udig.platform.category"/>
+   </feature>
+   <category-def name="udig.platform.category" label="uDig Platform Category"/>
+</site>

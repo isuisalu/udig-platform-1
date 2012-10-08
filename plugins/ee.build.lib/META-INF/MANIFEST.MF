@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Build Help Lib
+Bundle-SymbolicName: ee.build.lib
+Bundle-Version: 1.3.2.qualifier
+Bundle-Vendor: isuisalu
+Bundle-ClassPath: .,
+ lib/jai_core-1.1.3.jar
+Export-Package: javax.media.jai,
+ javax.media.jai.iterator,
+ javax.media.jai.operator,
+ javax.media.jai.registry,
+ javax.media.jai.remote,
+ javax.media.jai.tilecodec,
+ javax.media.jai.util,
+ javax.media.jai.widget
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

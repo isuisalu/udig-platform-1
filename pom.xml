@@ -218,6 +218,7 @@ Includes the ossim feaure (this may be dead code)
             <layout>p2</layout>
             <url>http://download.eclipse.org/technology/babel/update-site/R0.10.0/indigo</url>
         </repository>
+-->
          <repository>
             <id>geotools-release</id>
             <name>Geotools Release</name>
@@ -226,7 +227,6 @@ Includes the ossim feaure (this may be dead code)
                 <enabled>true</enabled>
             </releases>
         </repository>
--->
     </repositories>
     
     <build>

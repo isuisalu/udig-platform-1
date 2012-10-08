@@ -20,6 +20,8 @@
     <packaging>eclipse-repository</packaging>
 
     <build>
+		<directory>${user.home}/p2/udig-target</directory>
+
         <plugins>
 
             <plugin>

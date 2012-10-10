@@ -8,4 +8,5 @@ Bundle-Vendor: udig.refractions.net
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  net.refractions.udig.project.ui
+Import-Package: javax.media.jai
 Bundle-ActivationPolicy: lazy

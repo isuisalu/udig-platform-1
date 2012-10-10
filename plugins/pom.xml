@@ -11,7 +11,7 @@
 
     <groupId>net.refractions</groupId>
     <artifactId>plugins</artifactId>
-    <version>1.3.0-SNAPSHOT</version>
+    <version>1.3.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <profiles>
@@ -114,14 +114,14 @@
         <module>net.refractions.udig.catalog</module>
          <module>net.refractions.udig.catalog.arcgrid</module>
         <module>net.refractions.udig.catalog.arcsde</module>
-                <!-- 
-        <module>net.refractions.udig.catalog.db2</module>
         <module>net.refractions.udig.catalog.geotiff</module>
         <module>net.refractions.udig.catalog.geotools</module>
         <module>net.refractions.udig.catalog.google2</module>
         <module>net.refractions.udig.catalog.imageio</module>
+                 <!-- 
          -->
                <!-- 
+        <module>net.refractions.udig.catalog.db2</module>
         <module>net.refractions.udig.catalog.mysql</module>
         <module>net.refractions.udig.catalog.oracle</module>
           -->

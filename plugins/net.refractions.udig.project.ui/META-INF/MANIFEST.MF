@@ -7,7 +7,7 @@ Bundle-Activator: net.refractions.udig.project.ui.internal.ProjectUIPlugin
 Bundle-Vendor: udig.refractions.net
 Bundle-Localization: plugin
 Eclipse-BuddyPolicy: ext
-Import-Package: javax.media.jai
+Import-Package: javax.media.jai;resolution:=optional
 Export-Package: net.refractions.udig.project.internal.ui.wizard,
  net.refractions.udig.project.ui,
  net.refractions.udig.project.ui.commands,

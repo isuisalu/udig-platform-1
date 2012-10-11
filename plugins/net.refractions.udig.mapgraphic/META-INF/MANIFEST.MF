@@ -17,7 +17,7 @@ Require-Bundle: org.eclipse.ui,
  net.refractions.udig.style;visibility:=reexport,
  net.refractions.udig.style.sld
 Bundle-ActivationPolicy: lazy
-Import-Package: javax.media.jai
+Import-Package: javax.media.jai;resolution:=optional
 Export-Package: net.refractions.udig.mapgraphic,
  net.refractions.udig.mapgraphic.grid,
  net.refractions.udig.mapgraphic.internal,

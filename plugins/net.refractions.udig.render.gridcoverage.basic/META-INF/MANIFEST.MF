@@ -6,7 +6,7 @@ Bundle-Version: 1.2.0.qualifier
 Bundle-Activator: net.refractions.udig.render.internal.gridcoverage.basic.RendererPlugin
 Bundle-Vendor: udig.refractions.net
 Bundle-Localization: plugin
-Import-Package: javax.media.jai
+Import-Package: javax.media.jai;resolution:=optional
 Export-Package: net.refractions.udig.render.gridcoverage.basic.internal,
  net.refractions.udig.render.internal.gridcoverage.basic
 Require-Bundle: net.refractions.udig.project,

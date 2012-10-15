@@ -51,6 +51,7 @@ GNU Lesser General Public License for more details.
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+         <!--
    <plugin
          id="net.refractions.udig.printing.model.source"
          download-size="0"
@@ -71,5 +72,5 @@ GNU Lesser General Public License for more details.
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+-->
 </feature>

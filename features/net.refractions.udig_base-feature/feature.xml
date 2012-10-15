@@ -27,11 +27,19 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
    <includes
          id="org.eclipse.rcp"
          version="4.2.0"/>
+         
+   <includes
+         id="org.eclipse.emf.common"
+         version="0.0.0"/>
 
+   <includes
+         id="org.eclipse.emf.ecore"
+         version="0.0.0"/>
+
+<!--
    <includes
          id="org.eclipse.e4.rcp"
          version="0.0.0"/>
-
    <includes
          id="org.eclipse.e4.rcp.source"
          version="0.0.0"/>
@@ -50,6 +58,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          version="0.0.0"
          unpack="false"/>
 
+-->
    <plugin
          id="org.eclipse.platform"
          download-size="0"
@@ -93,19 +102,12 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.runtime.compatibility.registry.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.core.runtime.compatibility.auth"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+<!--
    <plugin
          id="org.eclipse.e4.tools"
          download-size="0"
@@ -140,7 +142,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+-->
    <plugin
          id="org.eclipse.e4.tools.emf.liveeditor"
          download-size="0"
@@ -169,12 +171,6 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
-         id="org.eclipse.e4.tools.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
    <plugin
          id="org.eclipse.core.resources"
@@ -237,14 +233,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
-   <plugin
-         id="org.eclipse.emf.ecore"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
+         
    <plugin
          id="org.eclipse.emf.edit.ui"
          download-size="0"
@@ -252,12 +241,14 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          version="0.0.0"
          unpack="false"/>
 
+<!--
    <plugin
          id="org.eclipse.emf.ecore.xmi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+-->
 
    <plugin
          id="org.eclipse.ui.intro"
@@ -299,6 +290,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+<!--
 
    <plugin
          id="org.eclipse.emf.ecore.change"
@@ -306,7 +298,7 @@ If you add a depenedncy on any aspect of &quot;org.eclipse.*&quot; then please a
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+-->
    <plugin
          id="org.eclipse.jface.text"
          download-size="0"

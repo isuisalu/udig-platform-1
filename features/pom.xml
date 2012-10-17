@@ -53,7 +53,9 @@
             <id>site</id>
             <modules>
                 <module>net.refractions.udig-site</module>
+                <!-- 
                 <module>net.refractions.udig-site.community</module>
+                 -->
              </modules>
         </profile>
 
@@ -74,10 +76,7 @@
                 <module>net.refractions.udig.rcp_feature</module>
                  -->
                 <module>net.refractions.udig_tutorials-feature</module>
-             <!-- 
-                <module>net.refractions.udig_sdk-feature</module>
-                                 -->
-                
+                <module>net.refractions.udig_sdk-feature</module>                
              </modules>
         </profile>
     </profiles>

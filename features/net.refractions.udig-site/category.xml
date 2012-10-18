@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <category-def name="net.refractions.udig.sdk" label="uDig SDK"/>
+    
+    <feature url="features/net.refractions.udig_sdk-feature_0.0.0.jar" id="net.refractions.udig_sdk-feature" version="0.0.0">
+        <category name="net.refractions.udig.sdk"/>
+    </feature>
+    
+</site>

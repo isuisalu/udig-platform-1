@@ -93,7 +93,6 @@
         <module>net.refractions.udig_platform-feature</module>
         <module>net.refractions.udig_printing-feature</module>
         <module>net.refractions.udig-feature</module>
-        <module>net.refractions.udig-product</module>
     </modules>
 
 </project>

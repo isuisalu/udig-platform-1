@@ -23,6 +23,73 @@
 		<directory>${user.home}/p2/udig-target</directory>
 
         <plugins>
+        <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-p2-extras-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <executions>
+                <execution>
+                    <phase>prepare-package</phase>
+                    <goals>
+                        <goal>mirror</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <source>
+                    <!-- source repositories to mirror from -->
+        <repository>
+            <id>kepler-web</id>
+            <layout>p2</layout>
+            <url>http://download.eclipse.org/releases/kepler/</url>
+        </repository>
+        <repository>
+            <id>juno-web</id>
+            <layout>p2</layout>
+            <url>http://download.eclipse.org/releases/juno/</url>
+        </repository>
+                </source>
+ 
+                <!-- starting from here all configuration parameters are optional -->
+                <!-- they are only shown here with default values for documentation purpose -->
+ 
+                <!-- List of IUs to mirror. If omitted, allIUs will be mirrored. -->
+                <!-- Omitted IU version element means latest version of the IU -->
+                <ius>
+                    <iu>
+                        <id>org.eclipse.rcp.feature.group</id>
+                        <version>4.2.0.v20120528</version>
+                    <!-- 
+                        <id>org.eclipse.equinox.executable.feature.group</id>
+                     -->
+                     </iu>
+                </ius>
+                <!-- The destination directory to mirror to. -->
+                <destination>${user.home}/p2/juno</destination>
+                <!-- Whether only strict dependencies should be followed. -->
+                <!-- "strict" means perfect version match -->
+                <followStrictOnly>false</followStrictOnly>
+                <!-- Whether or not to follow optional requirements. -->
+                <includeOptional>true</includeOptional>
+                <!-- Whether or not to follow non-greedy requirements. -->
+                <includeNonGreedy>true</includeNonGreedy>
+                <!-- Filter properties. E.g. filter only one platform -->
+                <filter>
+                    <osgi.os>win32</osgi.os>
+                    <osgi.ws>win32</osgi.ws>
+                    <osgi.arch>x86</osgi.arch>
+                </filter>
+                <!-- Whether to filter the resulting set of IUs to only -->
+                <!-- include the latest version of each IU -->
+                <latestVersionOnly>false</latestVersionOnly>
+                <!-- don't mirror artifacts, only metadata -->
+                <mirrorMetadataOnly>false</mirrorMetadataOnly>
+                <!-- whether to compress the content.xml/artifacts.xml -->
+                <compress>true</compress>
+                <!-- whether to append to the target repository content -->
+                <append>true</append>
+            </configuration>
+        </plugin>
 
             <plugin>
                 <groupId>org.eclipse.tycho</groupId>

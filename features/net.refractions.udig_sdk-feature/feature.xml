@@ -111,7 +111,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
          install-size="0"
          version="1.1.0"
          unpack="false"/>
-         
+       <!-- helps build plugins importing javax.media package -->
+       
+       <plugin id="ee.build.lib"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+           
    <plugin
          id="net.refractions.udig.mapgraphic.source"
          download-size="0"
